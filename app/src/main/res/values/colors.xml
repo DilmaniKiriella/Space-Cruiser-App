@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tableLayoutcolor">#8D3C3939</color>
+    <color name="textcolor">#ECDBDB</color>
+    <color name="darkred">#E80909</color>
+    <color name="green">#7FA80B</color>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basicLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/tableLayoutcolor">
+
+
+        <TextView
+            android:id="@+id/Gtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor"
+            android:textSize="32sp" />
+
+            <TableLayout
+                android:id = "@+id/Ginfo"
+                android:layout_width="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/alien" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charac_intro"
+                        android:textColor="@color/textcolor"
+                        android:textAlignment="center"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/warning"
+                        android:textColor="@color/textcolor"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/asteroid" />
+            </TableLayout>
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/score"
+                    android:textColor="@color/textcolor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+
+                <TextView
+                    android:id="@+id/hScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/high_score"
+                    android:textColor="@color/textcolor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/gameOver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/endgame"
+                    android:textAlignment="center"
+                    android:textColor="@color/darkred"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="35"
+                    android:textSize="30sp"/>
+
+
+    </TableLayout>
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="60dp"
+                    android:backgroundTint="@color/green"
+                    android:text="START"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+
+</LinearLayout>
