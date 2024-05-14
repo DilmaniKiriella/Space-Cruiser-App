@@ -2,6 +2,16 @@
 
 Space Cruiser is a simple yet engaging space-themed game where players control the character "Glider", an alien navigating through space while avoiding asteroids. The goal is to steer the Glider safely through space, avoiding collisions with approaching asteroids to earn points.
 
+## Screenshots
+
+<div style="white-space: nowrap; overflow-x: auto;">
+  <img src="Screenshots/launch_screen.jpg" alt="Screenshot 1" width="200" style="display: inline-block;">
+  <img src="Screenshots/game_start.jpg" alt="Screenshot 2" width="200" style="display: inline-block;">
+  <img src="Screenshots/game_view.jpg" alt="Screenshot 3" width="200" style="display: inline-block;">
+  <img src="Screenshots/game_over.jpg" alt="Screenshot 4" width="200" style="display: inline-block;">
+</div>
+
+
 ## Instructions
 
 ### Objective
